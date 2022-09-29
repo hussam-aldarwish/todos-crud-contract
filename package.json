@@ -18,11 +18,10 @@
     }
   },
   "scripts": {
-    "asbuild:debug": "asc assembly/index.ts --target debug",
-    "asbuild:release": "asc assembly/index.ts --target release",
-    "asbuild": "yarn asbuild:debug && yarn asbuild:release",
-    "test": "node tests",
-    "start": "npx serve ."
+    "build:release": "asb",
+    "deploy": "near dev-deploy build/release/todos-crud-contract.wasm",
+    "dev": "yarn build:release && yarn deploy",
+    "test": "asp"
   },
   "devDependencies": {
     "assemblyscript": "^0.21.4"
