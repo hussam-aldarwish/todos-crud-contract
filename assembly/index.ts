@@ -11,3 +11,7 @@ export function create(task: string): Todo {
 export function getById(id: u32): Todo {
   return Todo.findById(id);
 }
+
+export function get(offset: u32, limit: u32 = 10): Todo[] {
+  return Todo.find(offset, limit);
+}
