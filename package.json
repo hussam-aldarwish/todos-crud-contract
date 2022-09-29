@@ -1,0 +1,30 @@
+{
+  "name": "todos-crud-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.21.4",
+    "asbuild": "^0.2.0",
+    "assemblyscript": "^0.21.4",
+    "near-cli": "^3.4.2",
+    "near-sdk-as": "^3.2.3"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./build/release.js",
+      "types": "./build/release.d.ts"
+    }
+  },
+  "scripts": {
+    "asbuild:debug": "asc assembly/index.ts --target debug",
+    "asbuild:release": "asc assembly/index.ts --target release",
+    "asbuild": "yarn asbuild:debug && yarn asbuild:release",
+    "test": "node tests",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.21.4"
+  }
+}
