@@ -1,5 +1,5 @@
 // The entry file of your WebAssembly module.
-import { Todo } from "./model";
+import { PartialTodo, Todo } from "./model";
 
 // export the create method. This acts like an endpoint
 // that we'll be able to call from our web app.
@@ -14,4 +14,8 @@ export function getById(id: u32): Todo {
 
 export function get(offset: u32, limit: u32 = 10): Todo[] {
   return Todo.find(offset, limit);
+}
+
+export function update(id: u32, updates: PartialTodo): Todo {
+  return Todo.findByIdAndUpdate(id, updates);
 }
