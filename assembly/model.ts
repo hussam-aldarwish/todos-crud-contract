@@ -32,4 +32,10 @@ export class Todo {
 
     return todo;
   }
+
+  static findById(id: u32): Todo {
+    // Lookup a todo in the PersistentUnorderedMap by its id.
+    // This is like a SELECT * FROM todos WHERE id=?
+    return todos.getSome(id);
+  }
 }

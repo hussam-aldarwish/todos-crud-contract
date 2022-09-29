@@ -7,3 +7,7 @@ export function create(task: string): Todo {
   // use the Todo class to persist the todo data
   return Todo.insert(task);
 }
+
+export function getById(id: u32): Todo {
+  return Todo.findById(id);
+}
