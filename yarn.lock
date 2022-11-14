@@ -527,12 +527,12 @@ assemblyscript@^0.18.25, assemblyscript@^0.18.31:
     binaryen "100.0.0-nightly.20210413"
     long "^4.0.0"
 
-assemblyscript@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.22.0.tgz#4ca71d6790c0f26db5d3e358e860b2d542f6e02b"
-  integrity sha512-BC4tV2hc+oNgKOWfXXrl5iD2W+NkQV1MbRNCMi7YE83VoSzrmJj7LqSJMHYc39nKNnX+MiL4DHzp9zCKIMal/g==
+assemblyscript@^0.23.1:
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.23.1.tgz#6c6fb52fe5d15550d90d9e4210bb89c5f0d02335"
+  integrity sha512-D6n9s5x2Ll8I0e6rYfs/ZvHINcZrBPUfgwC10cXwyNxnvE3aJ+uiXlUQypMxPfo0LON2QKjDLvLkem+UMB1XCg==
   dependencies:
-    binaryen "110.0.0-nightly.20221019"
+    binaryen "110.0.0-nightly.20221105"
     long "^5.2.0"
 
 astral-regex@^2.0.0:
@@ -601,10 +601,10 @@ binaryen@100.0.0-nightly.20210413:
   resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-100.0.0-nightly.20210413.tgz#b7f2a5bb1f76b2d6f9c67486ca218714b3766790"
   integrity sha512-EeGLIxQmJS0xnYl+SH34mNBqVMoixKd9nsE7S7z+CtS9A4eoWn3Qjav+XElgunUgXIHAI5yLnYT2TUGnLX2f1w==
 
-binaryen@110.0.0-nightly.20221019:
-  version "110.0.0-nightly.20221019"
-  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-110.0.0-nightly.20221019.tgz#3c458f114ea3eb34c64d47d6a03b9529199638c7"
-  integrity sha512-BmuVpV5hpeU1G9ENWQUslwaxbmol810S3+yd7xVJap+vrSQz7ybXiirwya1FfYSFtuDbfGYPfQAObiW5O2PS1w==
+binaryen@110.0.0-nightly.20221105:
+  version "110.0.0-nightly.20221105"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-110.0.0-nightly.20221105.tgz#9e3c47e8ffa31521acd125013dca3ceea143d0bf"
+  integrity sha512-OBESOc51q3SwgG8Uv8nMzGnSq7LJpSB/Fu8B3AjlZg6YtCEwRnlDWlnwNB6mdql+VdexfKmNcsrs4K7MYidmdQ==
 
 bindings@^1.5.0:
   version "1.5.0"
