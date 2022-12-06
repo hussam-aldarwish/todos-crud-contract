@@ -6,7 +6,7 @@
   "dependencies": {
     "@assemblyscript/loader": "^0.25.0",
     "asbuild": "^0.2.0",
-    "assemblyscript": "^0.24.1",
+    "assemblyscript": "^0.25.0",
     "near-cli": "^3.4.2",
     "near-sdk-as": "^3.2.3"
   },
@@ -24,6 +24,6 @@
     "test": "asp"
   },
   "devDependencies": {
-    "assemblyscript": "^0.24.1"
+    "assemblyscript": "^0.25.0"
   }
 }
