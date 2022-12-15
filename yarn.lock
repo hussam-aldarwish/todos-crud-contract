@@ -88,10 +88,10 @@
   resolved "https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.18.32.tgz#2216fc7df235df247c95004457efd9c0a7da33ed"
   integrity sha512-fq+nWvQuwASkTgchjMsnLyharobzPJIKx4KGoSlkS1ffrsnjabok2oOH7jAIFW4RMz3JXjHxMONbAmcxzyrcUw==
 
-"@assemblyscript/loader@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.25.0.tgz#6808912d05daecdfd191f8c88ffa4e834770f5f5"
-  integrity sha512-y73avi0tPwy/fkmHgcDDBtsvtKInFZE9hEFkgUNcohjH/us8nbQk+aDt/73U9jjRdMQcex9Oaa+Ra0kLJ329Gg==
+"@assemblyscript/loader@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.25.1.tgz#d4e8b1f18ddaa18604e201050cc20a079c59f7dd"
+  integrity sha512-e8MV5uW9kopePkzt2fmvW33togEwdL2raPkPE5e/5Z+bngtD62x+reaZm0DkXSONuQz9CRsVoFMHpnD3j8TKHg==
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
