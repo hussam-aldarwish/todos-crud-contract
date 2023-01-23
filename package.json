@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@assemblyscript/loader": "^0.26.5",
+    "@assemblyscript/loader": "^0.26.6",
     "asbuild": "^0.2.0",
     "assemblyscript": "^0.26.5",
     "near-cli": "^3.4.2",
