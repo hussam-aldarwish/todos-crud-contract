@@ -527,10 +527,10 @@ assemblyscript@^0.18.25, assemblyscript@^0.18.31:
     binaryen "100.0.0-nightly.20210413"
     long "^4.0.0"
 
-assemblyscript@^0.26.5:
-  version "0.26.5"
-  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.26.5.tgz#3420a5e55bea2db56a00eb1c45ad120ab905b9f6"
-  integrity sha512-WLeUEvZLDEyI8jDGHqIbD2EZNB1HDT7Qxt2QK2bvk1TlQH8pwmWA5nyeyTxgkb5PinJTHApkzIV59iCi9kGGIw==
+assemblyscript@^0.26.7:
+  version "0.26.7"
+  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.26.7.tgz#b194ee599a1b9d7753e25a1ca4c7d45f42574b7f"
+  integrity sha512-+zjr7RZotrNleOc2raZQJVIoMQ906LmZP9Q9C9IUft3o5QIzerQdKboHIwyO4HZUZor3dG0e9vIFK7w1l0PCsw==
   dependencies:
     binaryen "111.0.0-nightly.20230111"
     long "^5.2.0"
